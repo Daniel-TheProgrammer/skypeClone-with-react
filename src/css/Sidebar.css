@@ -1,0 +1,33 @@
+.sidebar {
+  width: 80px;
+  background-color: rgba(32, 32, 35, 1);
+  height: 100%;
+  border-right: 1px solid rgba(189, 189, 192, 0.1);
+  overflow-y: scroll;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(189, 189, 192, 0.1);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(189, 189, 192, 0.5);
+}
+
+@media (min-width: 576px) {
+  .sidebar {
+    width: 320px;
+  }
+}

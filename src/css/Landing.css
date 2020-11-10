@@ -1,0 +1,39 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.landing-name {
+  color: #fff;
+}
+.landing-status,
+.landing-info {
+  padding: 1rem;
+}
+.landing-status {
+  color: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+.landing-img {
+  border-radius: 50%;
+  margin: 2rem 0;
+}
+.landing-btn {
+  padding: 1rem 1.5rem;
+  margin: 1rem 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  outline: 0;
+  border: none;
+}
+.landing-btn:hover {
+  background: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
+
+.landing-btn:active {
+  transform: scale(0.9);
+}

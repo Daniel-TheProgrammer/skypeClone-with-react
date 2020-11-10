@@ -1,0 +1,15 @@
+.message {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.message-input {
+  width: 100%;
+  padding: 1.5rem;
+  background: #2b2c33;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+}
