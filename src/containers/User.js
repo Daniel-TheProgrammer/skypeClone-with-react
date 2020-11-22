@@ -6,6 +6,7 @@ import "../css/User.css";
 import { setActiveUserId } from "../actions";
 import store from "../store";
 
+
 class User extends Component {
   getStatus = status => {
     if ((status = "online")) return "online";
