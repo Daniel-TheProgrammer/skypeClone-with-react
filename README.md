@@ -1,2 +1,2 @@
-U#skypeClone-with-react
+skypeClone-with-react
 
